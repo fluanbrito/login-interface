@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+    Este é um arquivo HTML para uma página de login.
+-->
+<html lang="en">
+
+<head>
+    <!-- Inclui o arquivo CSS personalizado index.css -->
+    <link rel="stylesheet" href="index.css">
+    <!-- Inclui o arquivo CSS personalizado style.css -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Define o título da página -->
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- Cria uma seção para conter o formulário de login -->
+    <section>
+        <!-- Cria uma caixa para o formulário de login -->
+        <div class="form-box">
+            <!-- Cria um elemento para conter os campos do formulário de login -->
+            <div class="form-value">
+                <!-- Cria um formulário para coletar informações de login -->
+                <form action="">
+                    <!-- Título do formulário de login -->
+                    <h2>Faça Login</h2>
+                    <!-- Campo para inserir o endereço de email -->
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required>
+                        <label for="">Email</label>
+                    </div>
+
+                    <!-- Campo para inserir a senha -->
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" required>
+                        <label for="">Senha</label>
+                    </div>
+
+                    <!-- Link para redefinir a senha -->
+                    <div class="forget">
+                        <label for="">
+                            <input type="checkbox">Lembre de mim
+                            <span>|</span>
+                            <a href="#">Esqueceu a senha?</a>
+                        </label>
+                    </div>
+
+                    <!-- Botão para enviar as informações do formulário -->
+                    <button>Entrar</button>
+
+                    <!-- Link para criar uma nova conta -->
+                    <div class="register">
+                        <p>Você já tem conta?
+                            <span>|</span>
+                            <a href="#">Crie uma conta</a>
+                        </p>
+
+                        <!-- Créditos do desenvolvedor -->
+                        <p>
+                            <span> </span>
+                            <span> </span>
+                            <a href="https://www.linkedin.com/in/luanferreirab/">Desenvolvido por Luan Ferreira</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inclui o script do pacote Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
