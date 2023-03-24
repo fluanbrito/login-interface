@@ -28,7 +28,7 @@ Abra o arquivo "Index.html" em um navegador e teste as funções.
 
 ## ✅ Resultado (Preview)
 
-### **Calculadora**
+### **Login**
 <img src="img/login.gif">
 
 <br>
